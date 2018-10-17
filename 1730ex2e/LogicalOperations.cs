@@ -44,5 +44,21 @@ namespace _1730ex2e
         {
             return false;
         }
+        public static bool q10(int a, int b, int c, int d)
+        {
+            return false;
+        }
+        public static bool q11(bool member, decimal price, float weight)
+        {
+            return false;
+        }
+        public static bool q12(bool member, decimal price, float weight)
+        {
+            return false;
+        }
+        public static bool q13(string shipState, string itemType)
+        {
+            return false;
+        }
     }
 }

@@ -187,5 +187,82 @@ namespace _1730ex2eUnitTests
         {
             Assert.IsTrue(LogicalOperations.q09(0, 1));
         }
+
+        [TestMethod]
+        public void TestQ10ValidRanges()
+        {
+            Assert.IsTrue(LogicalOperations.q10(1, 2, 3, 4));
+        }
+        [TestMethod]
+        public void TestQ10CNotLessThanD()
+        {
+            Assert.IsFalse(LogicalOperations.q10(1, 1, 4, 4));
+        }
+        [TestMethod]
+        public void TestQ10CLessThanD()
+        {
+            Assert.IsTrue(LogicalOperations.q10(1, 1, 3, 4));
+        }
+        [TestMethod]
+        public void TestQ10BInRange()
+        {
+            Assert.IsTrue(LogicalOperations.q10(2, 1, 3, 0));
+        }
+        [TestMethod]
+        public void TestQ11NotFreeShipping()
+        {
+            Assert.IsFalse(LogicalOperations.q11(false, 24.99m, 1.1f));
+        }
+        [TestMethod]
+        public void TestQ11FreeShippingToMembers()
+        {
+            Assert.IsTrue(LogicalOperations.q11(true, 24.99m, 1.1f));
+        }
+        [TestMethod]
+        public void TestQ11FreeShippingOver25()
+        {
+            Assert.IsTrue(LogicalOperations.q11(false, 25m, 1.1f));
+        }
+        [TestMethod]
+        public void TestQ11FreeShipping1OunceOrLess()
+        {
+            Assert.IsTrue(LogicalOperations.q11(false, 24.99m, 1.0f));
+        }
+        [TestMethod]
+        public void TestQ12NotFreeShipping()
+        {
+            Assert.IsFalse(LogicalOperations.q12(false, 24.99m, 1.0f));
+        }
+        [TestMethod]
+        public void TestQ12FreeShippingToMembers()
+        {
+            Assert.IsTrue(LogicalOperations.q12(true, 24.99m, 1.0f));
+        }
+        [TestMethod]
+        public void TestQ12FreeShippingPriceOver25WeightUnder1()
+        {
+            Assert.IsTrue(LogicalOperations.q12(false, 25.0m, 0.99f));
+        }
+        [TestMethod]
+        public void TestQ13NoTaxOutsideMN()
+        {
+            Assert.IsFalse(LogicalOperations.q13("AA", "Electronics"));
+        }
+        [TestMethod]
+        public void TestQ13NoTaxNoTaxClothing()
+        {
+            Assert.IsFalse(LogicalOperations.q13("MN", "Clothing"));
+        }
+        [TestMethod]
+        public void TestQ13NoTaxNoTaxFood()
+        {
+            Assert.IsFalse(LogicalOperations.q13("MN", "Food"));
+        }
+        [TestMethod]
+        public void TestQ13TaxMN()
+        {
+            Assert.IsTrue(LogicalOperations.q13("MN", "Electronics"));
+        }
+
     }
 }
