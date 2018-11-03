@@ -192,5 +192,10 @@ namespace _1730ex2fUnitTests
         {
             Assert.AreEqual("2.00", Ex2fCalculations.Calc10("2", "4"));
         }
+        [TestMethod]
+        public void Test10Valid4Div4()
+        {
+            Assert.AreEqual("1.00", Ex2fCalculations.Calc10("4", "4"));
+        }
     }
 }
