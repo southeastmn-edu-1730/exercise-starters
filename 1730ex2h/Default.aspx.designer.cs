@@ -337,6 +337,15 @@ namespace _1730ex2h {
         protected global::System.Web.UI.WebControls.TextBox TextBox11;
         
         /// <summary>
+        /// TextBox11Result control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox TextBox11Result;
+        
+        /// <summary>
         /// Label12 control.
         /// </summary>
         /// <remarks>
@@ -353,6 +362,15 @@ namespace _1730ex2h {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox TextBox12;
+        
+        /// <summary>
+        /// TextBox12Result control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox TextBox12Result;
         
         /// <summary>
         /// Label13 control.
@@ -373,6 +391,15 @@ namespace _1730ex2h {
         protected global::System.Web.UI.WebControls.TextBox TextBox13;
         
         /// <summary>
+        /// TextBox13Result control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox TextBox13Result;
+        
+        /// <summary>
         /// Label14 control.
         /// </summary>
         /// <remarks>
@@ -389,6 +416,15 @@ namespace _1730ex2h {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox TextBox14;
+        
+        /// <summary>
+        /// TextBox14Result control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox TextBox14Result;
         
         /// <summary>
         /// Label15 control.
@@ -409,6 +445,15 @@ namespace _1730ex2h {
         protected global::System.Web.UI.WebControls.TextBox TextBox15;
         
         /// <summary>
+        /// TextBox15Result control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox TextBox15Result;
+        
+        /// <summary>
         /// Label16 control.
         /// </summary>
         /// <remarks>
@@ -425,6 +470,15 @@ namespace _1730ex2h {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox TextBox16;
+        
+        /// <summary>
+        /// TextBox16Result control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox TextBox16Result;
         
         /// <summary>
         /// Label17 control.
@@ -445,6 +499,15 @@ namespace _1730ex2h {
         protected global::System.Web.UI.WebControls.TextBox TextBox17;
         
         /// <summary>
+        /// TextBox17Result control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox TextBox17Result;
+        
+        /// <summary>
         /// Label18 control.
         /// </summary>
         /// <remarks>
@@ -461,6 +524,15 @@ namespace _1730ex2h {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox TextBox18;
+        
+        /// <summary>
+        /// TextBox18Result control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox TextBox18Result;
         
         /// <summary>
         /// Label19 control.
@@ -481,6 +553,15 @@ namespace _1730ex2h {
         protected global::System.Web.UI.WebControls.TextBox TextBox19;
         
         /// <summary>
+        /// TextBox19Result control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox TextBox19Result;
+        
+        /// <summary>
         /// Label20 control.
         /// </summary>
         /// <remarks>
@@ -490,12 +571,21 @@ namespace _1730ex2h {
         protected global::System.Web.UI.WebControls.Label Label20;
         
         /// <summary>
-        /// TextBox20 control.
+        /// Label20Result control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox20;
+        protected global::System.Web.UI.WebControls.Label Label20Result;
+        
+        /// <summary>
+        /// StringCalculationButton control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button StringCalculationButton;
     }
 }
