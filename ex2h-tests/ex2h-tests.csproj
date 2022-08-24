@@ -66,7 +66,7 @@
   <ItemGroup>
     <ProjectReference Include="..\ex2h\ex2h.csproj">
       <Project>{C8190A0E-0F4F-4098-99F8-6ACF3E8A725F}</Project>
-      <Name>1730ex2h</Name>
+      <Name>ex2h</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

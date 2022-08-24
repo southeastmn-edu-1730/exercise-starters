@@ -58,7 +58,7 @@
   <ItemGroup>
     <ProjectReference Include="..\ex3a\ex3a.csproj">
       <Project>{0d35a665-8a9f-43e3-8d0d-e75f5bc49eba}</Project>
-      <Name>1730ex3a</Name>
+      <Name>ex3a</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />
