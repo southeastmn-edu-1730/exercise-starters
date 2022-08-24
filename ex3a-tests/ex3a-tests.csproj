@@ -56,7 +56,7 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\1730ex3a\1730ex3a.csproj">
+    <ProjectReference Include="..\ex3a\ex3a.csproj">
       <Project>{0d35a665-8a9f-43e3-8d0d-e75f5bc49eba}</Project>
       <Name>1730ex3a</Name>
     </ProjectReference>

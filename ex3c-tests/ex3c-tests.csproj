@@ -56,9 +56,9 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\1730ex3c\1730ex3c.csproj">
+    <ProjectReference Include="..\ex3c\ex3c.csproj">
       <Project>{7cd085ab-052d-426c-9165-2f8402ac3414}</Project>
-      <Name>1730ex3c</Name>
+      <Name>ex3c</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />
