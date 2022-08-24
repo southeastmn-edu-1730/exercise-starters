@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace ch1-FinancialCalculations.Properties {
+namespace FinancialCalculations.Properties {
     using System;
     
     
